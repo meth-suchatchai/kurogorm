@@ -1,6 +1,6 @@
 package kurogorm
 
-import dbmodels "kurogorm/daos"
+import dbmodels "github.com/meth-suchatchai/kurogorm/daos"
 
 func (c *defaultClient) Migrate() error {
 	err := c.orm.AutoMigrate(&dbmodels.User{})

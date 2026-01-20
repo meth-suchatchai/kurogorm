@@ -1,7 +1,7 @@
 package kurogorm
 
 import (
-	dbmodels "kurogorm/daos"
+	dbmodels "github.com/meth-suchatchai/kurogorm/daos"
 	"log"
 
 	"gorm.io/gorm"

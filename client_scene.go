@@ -1,10 +1,9 @@
 package kurogorm
 
 import (
-	dbmodels "kurogorm/daos"
-	"log"
-
+	dbmodels "github.com/meth-suchatchai/kurogorm/daos"
 	"github.com/meth-suchatchai/kurostatemachine"
+	"log"
 )
 
 func (c *defaultClient) CreateScene(data *dbmodels.Scene) (*dbmodels.Scene, error) {

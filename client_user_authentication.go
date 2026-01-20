@@ -1,11 +1,10 @@
 package kurogorm
 
 import (
-	dbmodels "kurogorm/daos"
+	dbmodels "github.com/meth-suchatchai/kurogorm/daos"
+	"gorm.io/gorm"
 	"log"
 	"time"
-
-	"gorm.io/gorm"
 )
 
 func (c *defaultClient) GetUserAuthenticationByMobile(mobileNumber, countryCode string) (*dbmodels.UserAuthentication, error) {

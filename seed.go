@@ -3,7 +3,7 @@ package kurogorm
 import (
 	"crypto/md5"
 	"encoding/hex"
-	dbmodels "kurogorm/daos"
+	dbmodels "github.com/meth-suchatchai/kurogorm/daos"
 	"log"
 )
 
